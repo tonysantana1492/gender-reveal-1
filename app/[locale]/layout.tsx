@@ -150,6 +150,7 @@ export default async function RootLayout({
         />
       </head>
       <body
+        suppressHydrationWarning
         className={`${nunito.variable} ${greatVibes.variable} font-sans antialiased`}
       >
         <NextIntlProvider>{children}</NextIntlProvider>

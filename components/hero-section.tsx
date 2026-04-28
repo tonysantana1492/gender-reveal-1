@@ -182,7 +182,7 @@ export function HeroSection() {
           {/* Blue glow cloud right */}
           <div className="absolute -right-8 top-1/3 h-28 w-28 rounded-full bg-blue-300/35 blur-3xl" />
           <Image
-            src="/assets/3d88515c-ec9e-4479-8e88-c19b7934b2dc.png"
+            src="/assets/ballon.png"
             alt={t("hero_baby_alt", { parentsNames })}
             width={624}
             height={1136}
