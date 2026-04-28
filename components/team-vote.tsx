@@ -86,7 +86,7 @@ export function TeamVote() {
           }}
         >
           <p className="text-sm text-muted-foreground font-medium">
-            🎊 🎈 {t("teamVote_footer")} 🎈 🎊
+            {t("teamVote_footer")}
           </p>
         </div>
       </div>

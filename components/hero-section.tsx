@@ -23,75 +23,70 @@ export function HeroSection() {
       left: "22%",
       delay: "0s",
       duration: "3.2s",
-      color: "rgba(244,114,182,0.45)",
+      color: "rgba(244,114,182,0.95)",
     },
     {
       left: "34%",
       delay: "0.7s",
       duration: "4.1s",
-      color: "rgba(96,165,250,0.45)",
+      color: "rgba(96,165,250,0.95)",
     },
     {
       left: "46%",
       delay: "1.3s",
       duration: "3.6s",
-      color: "rgba(244,114,182,0.45)",
+      color: "rgba(244,114,182,0.95)",
     },
     {
       left: "52%",
       delay: "0.4s",
       duration: "4.8s",
-      color: "rgba(96,165,250,0.45)",
+      color: "rgba(96,165,250,0.95)",
     },
     {
       left: "60%",
       delay: "1.8s",
       duration: "3.4s",
-      color: "rgba(244,114,182,0.45)",
+      color: "rgba(244,114,182,0.95)",
     },
     {
       left: "68%",
       delay: "0.9s",
       duration: "4.3s",
-      color: "rgba(96,165,250,0.45)",
+      color: "rgba(96,165,250,0.95)",
     },
     {
       left: "74%",
       delay: "2.1s",
       duration: "3.9s",
-      color: "rgba(244,114,182,0.45)",
+      color: "rgba(244,114,182,0.95)",
     },
     {
       left: "80%",
       delay: "1.5s",
       duration: "4.6s",
-      color: "rgba(96,165,250,0.45)",
+      color: "rgba(96,165,250,0.95)",
     },
   ];
 
   return (
     <section
       id="bienvenida"
-      className="relative bg-[#f8e8d0] max-w-screen h-screen flex items-start justify-start"
+      className="relative bg-[#f8e8d0] max-w-screen h-screen flex items-start justify-center"
       aria-label={t("hero_aria_main")}
     >
       {/* Left watercolor panel */}
-      <div className="absolute inset-y-0 left-0 w-full">
-        <Image
-          src="/assets/left.png"
-          alt=""
-          fill
-          className="object-contain object-left"
-        />
+      <div className="absolute inset-y-0 left-0 sm:w-1/3 w-full">
+        <Image src="/assets/left.png" alt="" fill className="object-fill" />
       </div>
 
       {/* Right watercolor panel */}
-      <div className="absolute inset-y-0 right-0 w-full">
+      <div className="absolute inset-y-0 right-0 w-full sm:w-1/3">
         <Image
           src="/assets/right.png"
           alt=""
           fill
-          className="object-contain object-right"
+          className="object-top-right"
         />
       </div>
 
@@ -215,9 +210,24 @@ export function HeroSection() {
         </div>
       </div>
 
+      <div className="absolute bottom-18 block sm:hidden w-3/4">
+        <Image
+          src="/assets/card-2.png"
+          alt=""
+          width={341}
+          height={629}
+          className="h-auto w-full object-contain drop-shadow-[0_20px_30px_rgba(96,165,250,0.2)]"
+          sizes="160px"
+        />
+      </div>
+
+      <p className="absolute bottom-32 text-center text-3xl font-great-vibes text-black/80 block sm:hidden">
+        {t("a_moment_to_remember")}
+      </p>
+
       {/* Scroll indicator */}
-      {/* <div
-        className={`pointer-events-none absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 flex-col items-center gap-1.5 text-[#9d7b4e]/70 transition-opacity duration-500 ${
+      <div
+        className={`sm:hidden pointer-events-none absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 flex-col items-center gap-1.5 text-[#9d7b4e]/70 transition-opacity duration-500 ${
           scrolled ? "opacity-0" : "opacity-100"
         }`}
       >
@@ -225,7 +235,7 @@ export function HeroSection() {
           {t("hero_scroll")}
         </p>
         <ChevronDown className="h-4 w-4 animate-bounce" strokeWidth={1.8} />
-      </div> */}
+      </div>
     </section>
   );
 }

@@ -3,6 +3,7 @@
 
 declare const messages: {
   "toggle_language": "Toggle language",
+  "a_moment_to_remember": "A moment to remember",
   "location": "Location",
   "play_music": "Play music",
   "pause_music": "Pause music",
