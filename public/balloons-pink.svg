@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 800" preserveAspectRatio="xMidYMid meet">
+  <ellipse cx="65" cy="85" rx="35" ry="44" fill="#f48fb1" opacity="0.9"/>
+  <ellipse cx="65" cy="85" rx="20" ry="28" fill="white" opacity="0.14"/>
+  <ellipse cx="55" cy="68" rx="8" ry="6" fill="white" opacity="0.2"/>
+  <path d="M65 129 Q62 140 64 155" stroke="#f48fb1" stroke-width="1.8" fill="none"/>
+  <path d="M60 129 Q64 132 65 129 Q66 132 70 129" stroke="#f48fb1" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <ellipse cx="130" cy="50" rx="28" ry="35" fill="#f06292" opacity="0.8"/>
+  <ellipse cx="130" cy="50" rx="16" ry="22" fill="white" opacity="0.12"/>
+  <ellipse cx="122" cy="37" rx="6" ry="5" fill="white" opacity="0.18"/>
+  <path d="M130 85 Q128 94 130 108" stroke="#f06292" stroke-width="1.5" fill="none"/>
+  <ellipse cx="35" cy="185" rx="22" ry="28" fill="#e91e8c" opacity="0.7"/>
+  <ellipse cx="35" cy="185" rx="13" ry="18" fill="white" opacity="0.11"/>
+  <path d="M35 213 Q33 221 35 233" stroke="#e91e8c" stroke-width="1.5" fill="none"/>
+  <ellipse cx="150" cy="230" rx="34" ry="42" fill="#f48fb1" opacity="0.85"/>
+  <ellipse cx="150" cy="230" rx="19" ry="27" fill="white" opacity="0.13"/>
+  <ellipse cx="140" cy="214" rx="7" ry="6" fill="white" opacity="0.19"/>
+  <path d="M150 272 Q148 282 150 296" stroke="#f48fb1" stroke-width="1.8" fill="none"/>
+  <ellipse cx="55" cy="340" rx="26" ry="33" fill="#f06292" opacity="0.75"/>
+  <ellipse cx="55" cy="340" rx="15" ry="21" fill="white" opacity="0.12"/>
+  <path d="M55 373 Q53 382 55 395" stroke="#f06292" stroke-width="1.5" fill="none"/>
+  <ellipse cx="160" cy="430" rx="30" ry="37" fill="#e91e8c" opacity="0.7"/>
+  <ellipse cx="160" cy="430" rx="17" ry="24" fill="white" opacity="0.11"/>
+  <path d="M160 467 Q158 477 160 490" stroke="#e91e8c" stroke-width="1.5" fill="none"/>
+  <text x="100" y="155" font-size="14" fill="#e91e8c" opacity="0.5" font-family="sans-serif">&#9829;</text>
+  <text x="165" y="180" font-size="10" fill="#f06292" opacity="0.45" font-family="sans-serif">&#9829;</text>
+  <text x="20" y="270" font-size="12" fill="#e91e8c" opacity="0.4" font-family="sans-serif">&#9829;</text>
+  <text x="185" y="320" font-size="10" fill="#f48fb1" opacity="0.4" font-family="sans-serif">&#9829;</text>
+  <text x="85" y="395" font-size="14" fill="#e91e8c" opacity="0.4" font-family="sans-serif">&#9829;</text>
+  <circle cx="110" cy="110" r="4" fill="#f48fb1" opacity="0.6"/>
+  <circle cx="175" cy="140" r="3" fill="#e91e8c" opacity="0.5"/>
+  <circle cx="25" cy="225" r="4" fill="#f06292" opacity="0.45"/>
+  <circle cx="195" cy="270" r="3" fill="#f48fb1" opacity="0.4"/>
+  <circle cx="80" cy="310" r="3.5" fill="#e91e8c" opacity="0.45"/>
+  <circle cx="190" cy="360" r="3" fill="#f06292" opacity="0.4"/>
+  <circle cx="30" cy="460" r="4" fill="#f48fb1" opacity="0.4"/>
+  <path d="M190 90 l3 8 l8 3 l-8 3 l-3 8 l-3-8 l-8-3 l8-3 z" fill="#f48fb1" opacity="0.4"/>
+  <path d="M10 310 l2 6 l6 2 l-6 2 l-2 6 l-2-6 l-6-2 l6-2 z" fill="#e91e8c" opacity="0.35"/>
+</svg>

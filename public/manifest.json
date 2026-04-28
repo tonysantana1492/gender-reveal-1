@@ -1,0 +1,35 @@
+{
+    "name": "Baby Shower de Liam",
+    "short_name": "Baby Shower",
+    "description": "Invitación al Baby Shower de Liam. Únete a nosotros en esta celebración especial.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fef9f3",
+    "theme_color": "#a8d5e2",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "categories": [
+        "lifestyle",
+        "social"
+    ],
+    "lang": "es-ES",
+    "dir": "ltr"
+}
