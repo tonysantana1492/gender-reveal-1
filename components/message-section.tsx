@@ -31,7 +31,7 @@ export function MessageSection() {
     <section
       id="mensaje"
       ref={sectionRef}
-      className="py-10 md:py-20 bg-linear-to-b from-[#f6e9de] via-cream to-pink-light"
+      className="py-10 md:py-20 bg-linear-to-b from-[#f8e8d0] via-cream to-pink-light"
       aria-label={t("message_aria")}
     >
       <div

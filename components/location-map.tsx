@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { MapPin, Navigation, Phone, Clock, ExternalLink } from "lucide-react";
+import { MapPin, Navigation, Phone, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -47,7 +47,7 @@ export function LocationMap() {
     <section
       id="ubicacion"
       ref={sectionRef}
-      className="py-14 md:py-20 bg-gradient-to-b from-[var(--color-pink-light)] to-[var(--color-blue-light)]"
+      className="py-14 md:py-20 bg-linear-to-b to-pink-light from-blue-light"
       aria-label={t("location_section_aria")}
     >
       <div className="max-w-6xl mx-auto px-6">
@@ -73,7 +73,7 @@ export function LocationMap() {
                 : "opacity-0 -translate-x-10"
             }`}
           >
-            <div className="relative aspect-video w-full flex-grow">
+            <div className="relative aspect-video w-full grow">
               <iframe
                 src={mapEmbedUrl}
                 width="100%"
@@ -90,7 +90,7 @@ export function LocationMap() {
 
           {/* Location details */}
           <Card
-            className={`bg-white/60 backdrop-blur-md border-white/40 shadow-xl hover:shadow-2xl transition-all duration-700 flex flex-col rounded-[2rem] overflow-hidden ${
+            className={`bg-white/60 backdrop-blur-md border-white/40 shadow-xl hover:shadow-2xl transition-all duration-700 flex flex-col rounded-4xl overflow-hidden ${
               isVisible
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 translate-x-10"
