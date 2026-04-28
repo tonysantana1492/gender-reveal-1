@@ -221,7 +221,7 @@ export function HeroSection() {
         />
       </div>
 
-      <p className="absolute bottom-32 text-center text-3xl font-great-vibes text-gold block sm:hidden">
+      <p className="absolute bottom-32 text-center text-2xl font-great-vibes text-gold block sm:hidden">
         {t("a_moment_to_remember")}
       </p>
 
