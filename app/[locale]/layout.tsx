@@ -43,7 +43,7 @@ export async function generateMetadata({
     creator: parentsNames,
     publisher: parentsNames,
     metadataBase: new URL(
-      process.env.NEXT_PUBLIC_URL || "https://baby-shower-liam.vercel.app",
+      process.env.NEXT_PUBLIC_URL || "https://gender-reveal-richard.vercel.app",
     ),
     alternates: {
       canonical: "/",
