@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <footer
       id="footer"
-      className="py-12 bg-linear-to-b to-cream from-pink-light"
+      className="py-12 bg-linear-to-b to-cream from-blue-light"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div

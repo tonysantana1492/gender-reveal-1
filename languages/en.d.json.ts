@@ -2,127 +2,127 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-  toggle_language: "Toggle language";
-  a_moment_to_remember: "A moment to remember";
-  location: "Location";
-  play_music: "Play music";
-  pause_music: "Pause music";
-  hero_aria_main: "Main Gender Reveal section";
-  hero_invitation: "You are warmly invited to";
-  hero_pre_title: "A LITTLE";
-  hero_main_word: "Secret";
-  hero_mid_text: "IS ABOUT TO";
-  hero_reveal_word: "Revealed!";
-  hero_baby_alt: "{parentsNames}'s baby";
-  hero_prince_on_way: "Boy or Girl? We'll find out soon!";
-  hero_with_love: "With all our love from";
-  hero_scroll: "Scroll";
-  hero_pop_word: "Pop!";
-  hero_join_us: "JOIN US FOR A";
-  hero_gender_reveal_title: "GENDER REVEAL!";
-  hero_description: "Come celebrate with us as we discover together whether our little miracle is a <he>he</he> or a <she>she.</she>";
-  hero_baby_name_label: "BABY NAME";
-  hero_baby_name_value: "Baby";
-  hero_activity_treats: "Sweet Treats & Drinks";
-  hero_activity_games: "Fun Games & Guesses";
-  hero_activity_moment: "A Memorable Reveal Moment";
-  hero_activity_love: "Love, Joy & Celebration";
-  hero_dress_code_title: "Dress Code";
-  hero_dress_code_optional: "(Optional)";
-  hero_dress_code_wear: "Wear your guess:";
-  hero_dress_code_pink_suffix: "if you think it's a girl";
-  hero_dress_code_blue_suffix: "if you think it's a boy";
-  hero_moment_title: "A Moment to Remember";
-  hero_moment_body: "Your presence means the world to us as we celebrate this beautiful new chapter.";
-  hero_moment_closing: "We can't wait to share this unforgettable day with you.";
-  message_aria: "Parents' message";
-  message_paragraph_1: "With hearts overflowing with joy and excitement, we want to share with you the <highlight>greatest joy</highlight> of our lives. Soon we will find out if a princess or a little prince is coming to complete our family.";
-  message_paragraph_2: "Every day that passes, our excitement grows. Every kick, every ultrasound, every shared dream brings us closer to the most magical moment. We would love for you to join us in this special celebration, where together we will discover who is on the way. We can't wait to see you!";
-  message_signature: "With love, {parentsNames}";
-  teamVote_title: "What's your prediction?";
-  teamVote_subtitle: "Pick your team and find out on May 3rd";
-  teamVote_section_aria: "Pick Team Girl or Team Boy";
-  teamVote_girl_name: "Team Girl";
-  teamVote_girl_cta: "I'm Team Girl!";
-  teamVote_girl_trait1: "Bows and flowers";
-  teamVote_girl_trait2: "Everything sweet";
-  teamVote_girl_trait3: "Pure glamour";
-  teamVote_boy_name: "Team Boy";
-  teamVote_boy_cta: "I'm Team Boy!";
-  teamVote_boy_trait1: "The mischievous one";
-  teamVote_boy_trait2: "Total adventure";
-  teamVote_boy_trait3: "Full energy";
-  teamVote_footer: "On May 3rd we'll all find out together!";
-  event_detail_date_title: "Date";
-  event_detail_date_value: "Sunday, May 3, 2026";
-  event_detail_date_subtitle: "Save the date!";
-  event_detail_date_action: "Add to calendar";
-  calendar_title: "{parentsNames}'s Gender Reveal";
-  calendar_details: "Join us to find out if it's a boy or a girl!";
-  event_detail_time_title: "Time";
-  event_detail_time_value: "2:00pm - 5:00pm";
-  event_detail_time_subtitle: "We'll be waiting for you on time";
-  event_detail_location_title: "Location";
-  event_detail_location_action: "Open in Google Maps";
-  event_detail_dress_title: "Dress code";
-  event_detail_dress_value: "Pink or Blue!";
-  event_detail_dress_subtitle: "Dress according to your prediction 💗💙";
-  event_section_aria: "Gender Reveal event details";
-  event_title: "Event Details";
-  event_subtitle: "Everything you need to know to join us in this special celebration";
-  event_list_aria: "Event information";
-  event_icon_aria: "{title} icon";
-  event_view_now: "View now";
-  countdown_share_title: "You're invited to {parentsNames}'s Gender Reveal! 💗💙";
-  countdown_share_text: "Join us to find out if it's a boy or a girl! {eventDate} 🎉";
-  countdown_days: "Days";
-  countdown_hours: "Hours";
-  countdown_minutes: "Minutes";
-  countdown_seconds: "Seconds";
-  countdown_section_aria: "Countdown and invitation sharing";
-  countdown_icon_aria: "Calendar icon";
-  countdown_title: "Almost here!";
-  countdown_subtitle: "The big reveal is getting closer every day 💗💙";
-  gallery_image_1_alt: "{parentsNames} lovingly waiting for their baby's arrival";
-  gallery_image_1_caption: "Counting the days ✨";
-  gallery_image_2_alt: "{parentsNames} preparing for their baby's arrival with tiny shoes";
-  gallery_image_2_caption: "Tiny steps, big dreams 👶";
-  gallery_image_3_alt: "{parentsNames} excitedly looking at their baby's ultrasound";
-  gallery_image_3_caption: "Our first encounter 💗";
-  gallery_image_4_alt: "{parentsNames} lovingly decorating the nursery";
-  gallery_image_4_caption: "Their little kingdom 🌟";
-  gallery_image_5_alt: "{parentsNames} showing the baby bump";
-  gallery_image_5_caption: "Our little miracle 🌟";
-  gallery_section_aria: "Gallery of special moments awaiting the Gender Reveal";
-  gallery_title: "Our Love Story";
-  gallery_subtitle: "Tender moments while we wait for the big reveal";
-  location_section_aria: "Location and directions to the Gender Reveal";
-  location_title: "How to Get There?";
-  location_subtitle: "We'll be waiting for you in a very special place 🌸";
-  location_iframe_title: "Event location";
-  location_card_title: "Venue Details";
-  location_schedule_label: "Schedule";
-  location_contact_label: "Contact";
-  location_open_map: "Open map";
-  location_route_hint: "Click to view the route";
-  footer_title: "We can't wait to see you!";
-  footer_description: "{parentsNames} are very excited to celebrate with you the most anticipated revelation of their lives";
-  footer_made_with: "Made with";
-  footer_for: "for our baby";
-  footer_copyright: "© 2026 {parentsNames}'s Gender Reveal";
-  meta_title: "Gender Reveal 💗💙 | {parentsNames}";
-  meta_description: "Join us for the Gender Reveal! {parentsNames} invite you to discover together if it's a boy or a girl. {eventDate}.";
-  meta_keywords: "gender reveal|{parentsNames}|baby gender|boy or girl|gender reveal invitation";
-  meta_site_name: "{parentsNames}'s Gender Reveal";
-  meta_og_description: "Join the celebration! {parentsNames} invite you to their Gender Reveal. An afternoon full of love, laughter, and the most anticipated revelation.";
-  meta_og_image_alt: "{parentsNames}'s Gender Reveal";
-  meta_twitter_title: "Gender Reveal 💗💙 | {parentsNames}";
-  meta_twitter_description: "Let's find out together if it's a boy or a girl! {parentsNames} invite you to their Gender Reveal on {eventDate}.";
-  schema_event_name: "{parentsNames}'s Gender Reveal";
-  schema_event_description: "Gender Reveal celebration for {parentsNames}'s baby";
-  schema_location_name: "Santo Tamal Restaurant";
-  schema_street_address: "2390 W 76th St";
-  schema_address_locality: "Hialeah, FL 33016";
-  schema_organizer_name: "{parentsNames}";
+  "toggle_language": "Toggle language",
+  "a_moment_to_remember": "A moment to remember",
+  "location": "Location",
+  "play_music": "Play music",
+  "pause_music": "Pause music",
+  "hero_aria_main": "Main Gender Reveal section",
+  "hero_invitation": "You are warmly invited to",
+  "hero_pre_title": "A LITTLE",
+  "hero_main_word": "Secret",
+  "hero_mid_text": "IS ABOUT TO",
+  "hero_reveal_word": "Revealed!",
+  "hero_baby_alt": "{parentsNames}'s baby",
+  "hero_prince_on_way": "Boy or Girl? We'll find out soon!",
+  "hero_with_love": "With all our love from",
+  "hero_scroll": "Scroll",
+  "hero_pop_word": "Pop!",
+  "hero_join_us": "JOIN US FOR A",
+  "hero_gender_reveal_title": "GENDER REVEAL!",
+  "hero_description": "Come celebrate with us as we discover together whether our little miracle is a <he>he</he> or a <she>she.</she>",
+  "hero_baby_name_label": "BABY NAME",
+  "hero_baby_name_value": "Baby",
+  "hero_activity_treats": "Sweet Treats & Drinks",
+  "hero_activity_games": "Fun Games & Guesses",
+  "hero_activity_moment": "A Memorable Reveal Moment",
+  "hero_activity_love": "Love, Joy & Celebration",
+  "hero_dress_code_title": "Dress Code",
+  "hero_dress_code_optional": "(Optional)",
+  "hero_dress_code_wear": "Wear your guess:",
+  "hero_dress_code_pink_suffix": "if you think it's a girl",
+  "hero_dress_code_blue_suffix": "if you think it's a boy",
+  "hero_moment_title": "A Moment to Remember",
+  "hero_moment_body": "Your presence means the world to us as we celebrate this beautiful new chapter.",
+  "hero_moment_closing": "We can't wait to share this unforgettable day with you.",
+  "message_aria": "Parents' message",
+  "message_paragraph_1": "With hearts overflowing with joy and excitement, we want to share with you the <highlight>greatest joy</highlight> of our lives. Soon we will find out if a princess or a little prince is coming to complete our family.",
+  "message_paragraph_2": "Every day that passes, our excitement grows. Every kick, every ultrasound, every shared dream brings us closer to the most magical moment. We would love for you to join us in this special celebration, where together we will discover who is on the way. We can't wait to see you!",
+  "message_signature": "With love, {parentsNames}",
+  "teamVote_title": "What's your prediction?",
+  "teamVote_subtitle": "Pick your team and find out on May 3rd",
+  "teamVote_section_aria": "Pick Team Girl or Team Boy",
+  "teamVote_girl_name": "Team Girl",
+  "teamVote_girl_cta": "Bring wipes",
+  "teamVote_girl_trait1": "Bows and flowers",
+  "teamVote_girl_trait2": "Everything sweet",
+  "teamVote_girl_trait3": "Pure glamour",
+  "teamVote_boy_name": "Team Boy",
+  "teamVote_boy_cta": "Bring diapers",
+  "teamVote_boy_trait1": "Total adventure",
+  "teamVote_boy_trait2": "Full energy",
+  "teamVote_boy_trait3": "The mischievous one",
+  "teamVote_footer": "On May 3rd we'll all find out together!",
+  "event_detail_date_title": "Date",
+  "event_detail_date_value": "Sunday, May 3, 2026",
+  "event_detail_date_subtitle": "Save the date!",
+  "event_detail_date_action": "Add to calendar",
+  "calendar_title": "{parentsNames}'s Gender Reveal",
+  "calendar_details": "Join us to find out if it's a boy or a girl!",
+  "event_detail_time_title": "Time",
+  "event_detail_time_value": "2:00pm - 5:00pm",
+  "event_detail_time_subtitle": "We'll be waiting for you on time",
+  "event_detail_location_title": "Location",
+  "event_detail_location_action": "Open in Google Maps",
+  "event_detail_dress_title": "Dress code",
+  "event_detail_dress_value": "Pink or Blue!",
+  "event_detail_dress_subtitle": "Dress according to your prediction 💗💙",
+  "event_section_aria": "Gender Reveal event details",
+  "event_title": "Event Details",
+  "event_subtitle": "Everything you need to know to join us in this special celebration",
+  "event_list_aria": "Event information",
+  "event_icon_aria": "{title} icon",
+  "event_view_now": "View now",
+  "countdown_share_title": "You're invited to {parentsNames}'s Gender Reveal! 💗💙",
+  "countdown_share_text": "Join us to find out if it's a boy or a girl! {eventDate} 🎉",
+  "countdown_days": "Days",
+  "countdown_hours": "Hours",
+  "countdown_minutes": "Minutes",
+  "countdown_seconds": "Seconds",
+  "countdown_section_aria": "Countdown and invitation sharing",
+  "countdown_icon_aria": "Calendar icon",
+  "countdown_title": "Almost here!",
+  "countdown_subtitle": "The big reveal is getting closer every day 💗💙",
+  "gallery_image_1_alt": "{parentsNames} lovingly waiting for their baby's arrival",
+  "gallery_image_1_caption": "Counting the days ✨",
+  "gallery_image_2_alt": "{parentsNames} preparing for their baby's arrival with tiny shoes",
+  "gallery_image_2_caption": "Tiny steps, big dreams 👶",
+  "gallery_image_3_alt": "{parentsNames} excitedly looking at their baby's ultrasound",
+  "gallery_image_3_caption": "Our first encounter 💗",
+  "gallery_image_4_alt": "{parentsNames} lovingly decorating the nursery",
+  "gallery_image_4_caption": "Their little kingdom 🌟",
+  "gallery_image_5_alt": "{parentsNames} showing the baby bump",
+  "gallery_image_5_caption": "Our little miracle 🌟",
+  "gallery_section_aria": "Gallery of special moments awaiting the Gender Reveal",
+  "gallery_title": "Our Love Story",
+  "gallery_subtitle": "Tender moments while we wait for the big reveal",
+  "location_section_aria": "Location and directions to the Gender Reveal",
+  "location_title": "How to Get There?",
+  "location_subtitle": "We'll be waiting for you in a very special place 🌸",
+  "location_iframe_title": "Event location",
+  "location_card_title": "Venue Details",
+  "location_schedule_label": "Schedule",
+  "location_contact_label": "Contact",
+  "location_open_map": "Open map",
+  "location_route_hint": "Click to view the route",
+  "footer_title": "We can't wait to see you!",
+  "footer_description": "{parentsNames} are very excited to celebrate with you the most anticipated revelation of their lives",
+  "footer_made_with": "Made with",
+  "footer_for": "for our baby",
+  "footer_copyright": "© 2026 {parentsNames}'s Gender Reveal",
+  "meta_title": "Gender Reveal 💗💙 | {parentsNames}",
+  "meta_description": "Join us for the Gender Reveal! {parentsNames} invite you to discover together if it's a boy or a girl. {eventDate}.",
+  "meta_keywords": "gender reveal|{parentsNames}|baby gender|boy or girl|gender reveal invitation",
+  "meta_site_name": "{parentsNames}'s Gender Reveal",
+  "meta_og_description": "Join the celebration! {parentsNames} invite you to their Gender Reveal. An afternoon full of love, laughter, and the most anticipated revelation.",
+  "meta_og_image_alt": "{parentsNames}'s Gender Reveal",
+  "meta_twitter_title": "Gender Reveal 💗💙 | {parentsNames}",
+  "meta_twitter_description": "Let's find out together if it's a boy or a girl! {parentsNames} invite you to their Gender Reveal on {eventDate}.",
+  "schema_event_name": "{parentsNames}'s Gender Reveal",
+  "schema_event_description": "Gender Reveal celebration for {parentsNames}'s baby",
+  "schema_location_name": "Santo Tamal Restaurant",
+  "schema_street_address": "2390 W 76th St",
+  "schema_address_locality": "Hialeah, FL 33016",
+  "schema_organizer_name": "{parentsNames}"
 };
 export default messages;

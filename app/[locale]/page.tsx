@@ -16,7 +16,7 @@ export default function BabyShowerPage() {
         <MessageSection />
         <TeamVote />
         <EventDetails />
-        <CountdownShare />
+        {/* <CountdownShare /> */}
         <LocationMap />
         <Footer />
       </div>
