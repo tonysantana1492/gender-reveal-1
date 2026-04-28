@@ -191,7 +191,7 @@ export function HeroSection() {
             priority
           />
 
-          <div className="absolute bottom-8 right-0 mx-auto z-32 h-16 w-full">
+          <div className="absolute bottom-8 right-0 mx-auto z-32 h-16 w-full sm:block hidden">
             <Image
               src="/assets/f198f8f8-b3ee-419d-a610-15feb1b904bc (1).png"
               alt=""
@@ -200,9 +200,9 @@ export function HeroSection() {
               sizes="384px"
             />
           </div>
-          <div className="flex items-center justify-center gap-2 sm:gap-3">
+          <div className="hidden items-center justify-center gap-2 sm:gap-3 sm:block">
             <span className="h-px w-10 bg-[#c08b2d]/50" />
-            <h2 className="text-lg font-black uppercase tracking-[0.2em] text-[#c08b2d]">
+            <h2 className="text-lg font-black uppercase tracking-[0.2em] text-gold">
               {t("hero_gender_reveal_title")}
             </h2>
             <span className="h-px w-10 bg-[#c08b2d]/50" />
@@ -221,7 +221,7 @@ export function HeroSection() {
         />
       </div>
 
-      <p className="absolute bottom-32 text-center text-3xl font-great-vibes text-black/80 block sm:hidden">
+      <p className="absolute bottom-32 text-center text-3xl font-great-vibes text-gold block sm:hidden">
         {t("a_moment_to_remember")}
       </p>
 
