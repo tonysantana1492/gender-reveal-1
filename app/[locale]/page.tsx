@@ -10,7 +10,7 @@ import { HeroSection } from "@/components/hero-section";
 export default function BabyShowerPage() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[linear-gradient(180deg,#fffaf5_0%,#fff7fb_20%,#f7fbff_100%)]">
-      <BackgroundMusic />
+      {/* <BackgroundMusic /> */}
       <HeroSection />
       <div className="relative z-10">
         <MessageSection />
